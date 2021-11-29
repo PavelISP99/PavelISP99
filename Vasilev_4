@@ -1,0 +1,69 @@
+#include <iostream> 
+using namespace std;
+int main() {
+	setlocale(0, "");
+
+
+	cout << "[1] ßíâŕđü " << endl;
+	cout << "[2] Ôĺâđŕëü " << endl;
+	cout << "[3] Ěŕđň " << endl;
+	cout << "[4] Ŕďđĺëü " << endl;
+	cout << "[5] Ěŕé " << endl;
+	cout << "[6] Čţíü " << endl;
+	cout << "[7] Čţëü " << endl;
+	cout << "[8] Ŕâăóńň " << endl;
+	cout << "[9] Ńĺíň˙áđü " << endl;
+	cout << "[10] Îęň˙áđü " << endl;
+	cout << "[11] Íî˙áđü " << endl;
+	cout << "[12] Äĺęŕáđü " << endl << endl;
+	cout << "[-] Ââĺäčňĺ çíŕ÷ĺíčĺ: ";
+
+	int value;
+	cin >> value;
+
+	switch (value) {
+
+	case 1:
+		cout << "ßíâŕđü ";
+		break;
+	case 2:
+		cout << "Ôĺâđŕëü ";
+		break;
+	case 3:
+		cout << "Ěŕđň ";
+		break;
+	case 4:
+		cout << "Ŕďđĺëü ";
+		break;
+	case 5:
+		cout << "Ěŕé ";
+		break;
+	case 6:
+		cout << "Čţíü ";
+		break;
+	case 7:
+		cout << "Čţëü ";
+		break;
+	case 8:
+		cout << "Ŕâăóńň ";
+		break;
+	case 9:
+		cout << "Ńĺíň˙áđü ";
+		break;
+	case 10:
+		cout << "Îęň˙áđü ";
+		break;
+	case 11:
+		cout << "Íî˙áđü ";
+		break;
+	case 12:
+		cout << "Äĺęŕáđü ";
+		break;
+	default:
+		cout << "Íĺň ňŕęîăî çíŕ÷ĺíč˙ ";
+		break;
+
+	}
+
+	return 0;
+}
