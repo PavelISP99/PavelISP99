@@ -1,0 +1,54 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+int main() {
+	setlocale(0, "");
+
+
+	cout << "[-] Âðåìÿ ãîäà\n\n";
+
+	cout << "[1] Ëåòî\n";
+	cout << "[2] Îñåíü\n";
+	cout << "[3] Çèìà\n";
+	cout << "[4] Âåñíà\n";
+
+	cout << "Ââåäèòå çíà÷åíèÿ:  ";
+
+	int i;
+	cin >> i;
+
+	if (i == 1) {
+		system("cls");
+		cout << "Ñåé÷àñ  ëåòî åäü â Óçáåêèñòàí!";
+		Sleep(3000);
+
+	}
+	else if (i == 2) {
+		system("cls");
+		cout << "Äîæäè ìîðîñÿò , ãëàâíîå òû íå ìîðîñè!";
+		Sleep(3000);
+
+	}
+	else if (i == 3) {
+		system("cls");
+		cout << "Ïî êàéôó â ×óâàøèþ åäü";
+		Sleep(3000);
+
+	}
+	else if (i == 4) {
+		system("cls");
+		cout << "Ãðÿçü íå òîëüêî â ëþäÿõ, íî è íà óëèöå!!";
+		Sleep(3000);
+
+	}
+	else {
+		system("cls");
+		cout << "Íîðìàëüíî âûáèðàé!";
+		Sleep(3000);
+
+	}
+
+
+
+
+}
